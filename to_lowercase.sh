@@ -26,3 +26,6 @@ echo "$smashmouth" | sed -e 's/\(.*\)/\L\1/'
 # I guess this is just feeding smashmouth as stdin instead of using a pipe?
 # This is a good explaination of what the fuck the <<< operator is
 # https://unix.stackexchange.com/questions/80362/what-does-mean
+
+#Perl
+echo "$smashmouth" | perl -ne 'princ lc'
