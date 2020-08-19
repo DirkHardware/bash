@@ -1,0 +1,5 @@
+# !/bin/bash
+
+npm install -g npm@latest  
+rm -rf node_modules
+npm install        
